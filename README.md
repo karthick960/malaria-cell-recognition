@@ -1,8 +1,8 @@
-Deep Neural Network for Malaria Infected Cell Recognition
-AIM
+# Deep Neural Network for Malaria Infected Cell Recognition
+# AIM
 To develop a deep neural network for Malaria infected cell recognition and to analyze the performance.
 
-Problem Statement and Dataset
+# Problem Statement and Dataset
 It involves achieving high accuracy in classifying malaria-infected cells versus uninfected cells to aid in the diagnosis of malaria from microscopic images. Your task would be to optimize the model, possibly by tuning hyperparameters, trying different architectures, or using techniques like transfer learning to improve classification accuracy.
 
 ![alt text](<Screenshot 2024-11-18 160429.png>)
@@ -10,7 +10,7 @@ It involves achieving high accuracy in classifying malaria-infected cells versus
 Neural Network Model
 ![alt text](<Screenshot 2024-11-18 160502.png>)
 
-DESIGN STEPS
+# DESIGN STEPS
 STEP 1:
 Import necessary libraries for data manipulation, visualization, and deep learning.
 
@@ -58,7 +58,7 @@ Use random image selection for inference and display the prediction result.
 
 Write your own steps
 
-PROGRAM
+# PROGRAM
 # to share the GPU
 import tensorflow as tf
 from tensorflow.compat.v1.keras.backend import set_session
@@ -227,5 +227,5 @@ Confusion Matrix
 New Sample Data Prediction
 ![alt text](<Screenshot 2024-11-18 160714.png>)
 
-RESULT
+# RESULT
 Thus, a deep neural network for Malaria infected cell recognition is developed and the performance is analyzed.
