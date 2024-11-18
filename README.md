@@ -60,6 +60,7 @@ Write your own steps
 
 # PROGRAM
 # to share the GPU
+```
 import tensorflow as tf
 from tensorflow.compat.v1.keras.backend import set_session
 config = tf.compat.v1.ConfigProto()
@@ -212,9 +213,10 @@ plt.title("Model prediction: "+("Parasitized" if pred  else "Uninfected")+"\nAct
 plt.axis("off")
 plt.imshow(img)
 plt.show()
+```
 Name: KARTHICK K.
 Register Number: 212222040070
-OUTPUT
+# OUTPUT
 Training Loss, Validation Loss Vs Iteration Plot
 ![alt text](<Screenshot 2024-11-18 160601.png>)
 
